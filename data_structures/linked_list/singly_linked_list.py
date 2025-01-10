@@ -2,9 +2,9 @@ from __future__ import print_function
 
 
 class Node:  # create a Node
-    def __init__(self, data):
+    def __init__(self, data, next=None):
         self.data = data  # given data
-        self.next = None  # given next to None
+        self.next = next  # given next to None
 
 
 class Linked_List:
